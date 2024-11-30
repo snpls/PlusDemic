@@ -13,8 +13,8 @@ const App = () => {
       <Hero />
       <ServiceSec />
       <ServiceSec2 />
-      {/* <TrustSec /> */}
-      {/* <Footer /> */}
+      <TrustSec />
+      <Footer />
     </main>
   )
 }

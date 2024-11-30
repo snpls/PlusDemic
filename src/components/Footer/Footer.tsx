@@ -7,8 +7,8 @@ import { FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <section>
-        <div className="container py-10 flex justify-between items-center">
-            <div className="space-y-4 w-[400px]">
+        <div className="container py-10 flex justify-between items-start md:items-center flex-col md:flex-row gap-5">
+            <div className="space-y-4 md:w-[400px]">
                 <img src={logo} width={150} alt="" />
                 <p className="text-gray-500 text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor voluptatum ut molestiae facere.</p>
             </div>
